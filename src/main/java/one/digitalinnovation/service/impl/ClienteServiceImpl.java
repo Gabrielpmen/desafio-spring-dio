@@ -1,16 +1,16 @@
-package service.impl;
+package one.digitalinnovation.service.impl;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import model.Cliente;
-import model.ClienteRepository;
-import model.Endereco;
-import model.EnderecoRepository;
-import service.ClienteService;
-import service.ViaCepService;
+import one.digitalinnovation.model.Cliente;
+import one.digitalinnovation.model.ClienteRepository;
+import one.digitalinnovation.model.Endereco;
+import one.digitalinnovation.model.EnderecoRepository;
+import one.digitalinnovation.service.ClienteService;
+import one.digitalinnovation.service.ViaCepService;
 
 /**
  * Implementação da <b>Strategy</b> {@link ClienteService}, a qual pode ser

@@ -1,4 +1,4 @@
-package controller;
+package one.digitalinnovation.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import model.Cliente;
-import service.ClienteService;
+import one.digitalinnovation.model.Cliente;
+import one.digitalinnovation.service.ClienteService;
 
 /**
  * Esse {@link RestController} representa nossa <b>Facade</b>, pois abstrai toda

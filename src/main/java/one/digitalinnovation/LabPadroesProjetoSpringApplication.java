@@ -1,4 +1,4 @@
-package one.digitalinnovation.lab_padroes_projeto_spring;
+package one.digitalinnovation;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

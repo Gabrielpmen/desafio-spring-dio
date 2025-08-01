@@ -1,6 +1,6 @@
-package service;
+package one.digitalinnovation.service;
 
-import model.Cliente;
+import one.digitalinnovation.model.Cliente;
 
 /**
  * Interface que define o padrão <b>Strategy</b> no domínio de cliente. Com
