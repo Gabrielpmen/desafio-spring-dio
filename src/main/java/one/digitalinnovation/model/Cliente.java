@@ -5,6 +5,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
+import jakarta.validation.constraints.NotBlank; 
 
 @Entity
 public class Cliente {
@@ -12,7 +13,10 @@ public class Cliente {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
+	
+	@NotBlank 
 	private String nome;
+	
 	@ManyToOne
 	private Endereco endereco;
 
@@ -39,5 +43,4 @@ public class Cliente {
 	public void setEndereco(Endereco endereco) {
 		this.endereco = endereco;
 	}
-
 }
